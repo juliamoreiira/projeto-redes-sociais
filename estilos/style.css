@@ -33,13 +33,6 @@ section#telefone{
     background: url('../imagens/frame-iphone.png');
 }
 
-img{
-    position: absolute;
-
-    height: 60px;
-    border-radius: 100%;
-}
-
 iframe#celular{
         position: absolute;
         left: 23px;
@@ -50,6 +43,23 @@ iframe#celular{
 
 }
 
-#facebook{
-    left: 95%;
+section#redes-sociais{
+    text-align: right;
+
+}
+
+section#redes-sociais img{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    margin: 10px;
+    width: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.509);
+    transition: transform 0.3s , border 0.8s;
+
 }
